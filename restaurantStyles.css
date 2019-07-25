@@ -1,0 +1,97 @@
+/*
+Creator: Mikala Larson
+Date created: 7/21/19
+Date last modified: 7/24/19
+*/
+
+.jumbotron {
+ background-color: lightblue;
+ color: black;
+ height: 100px;
+ text-align: center;
+ padding: 30px 10px 20px 10px;
+}
+ .footerjumbotron {
+  background-color: lightblue;
+  color: black;
+  height: 200px;
+  text-align: center;
+  padding: 30px 10px 20px 10px;
+}
+nav a:visited {
+  background-color: #5b7d87;
+  color: black;
+}
+nav a:hover {
+  font-weight: bold;
+}
+nav a:active {
+  text-decoration: none;
+}
+nav {
+  border-top: thin solid;
+  border-bottom: thin solid;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: white;
+  text-align: center;
+}
+nav .btn {
+  background-color: lightblue;
+  color: #fef9ff;
+}
+#extcss {
+  background-color: lightyellow;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  margin: 12px;
+  border: 10px;
+}
+h2 {
+  color: purple;
+  text-align: center;
+  background-color: lightgreen;
+  margin-bottom: 30px;
+}
+h3 {
+  color: white;
+  font-family: serif;
+}
+
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  color: pink;
+}
