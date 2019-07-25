@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+  Name: Mikala Larson
+  Date created: 7/22/2019
+  Most recent revision: 7/24/2019
+
+  **Disclaimer: This program does not work correctly. Test program with 0 or 'Cancel' button to see webpage.**
+  -->
+
+<html lang="en">
+  <head>
+    <!-- Bootstrap meta sets -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- referencing the JavaScript file -->
+    <script type="text/JavaScript" src="luckySevens.js"></script>
+    <!-- Bootstraps CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Lucky Sevens</h1>
+      </header>
+    </div>
+
+    <section>
+      <label for="startingBet" id="bet">Starting Bet:</label>
+      <input type="text" id="startingBet" name="startingBet" placeholder="$0.00" />
+      <br />
+
+      <input type="submit" name="submit" value="Play">
+    </section>
+
+    <div class="container" id="results">
+      <table>
+      <!-- creating the Results table -->
+      <tbody>
+        <tr>
+          <td>Starting Bet</td>
+          <td id="resultsStartBet"></td>
+        </tr>
+
+        <tr>
+          <td>Total Rolls Before Going Broke</td>
+          <td id="rollsBeforeBroke"></td>
+        </tr>
+
+        <tr>
+          <td>Highest Amount Won</td>
+          <td id="highestWon"></td>
+        </tr>
+
+        <tr>
+          <td>Roll Count at Highest Amount Won</td>
+          <td id="rollsHighestWon"></td>
+        </tr>
+      </tbody>
+      </table>
+      <div>
+        <button id="restart">Replay</button>
+      </div>
+    </div>
+
+    <!-- jquery and popper.js plugins -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+</html>
